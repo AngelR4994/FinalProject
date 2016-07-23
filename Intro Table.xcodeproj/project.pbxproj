@@ -14,6 +14,30 @@
 		4B3718581D41A40C00E7ADD1 /* Intro_Table.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B3718561D41A40C00E7ADD1 /* Intro_Table.xcdatamodeld */; };
 		4B37185A1D41A40C00E7ADD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3718591D41A40C00E7ADD1 /* Assets.xcassets */; };
 		4B37185D1D41A40C00E7ADD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B37185B1D41A40C00E7ADD1 /* LaunchScreen.storyboard */; };
+		4BE7EDD51D423E7F008E08AE /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EDD41D423E7E008E08AE /* Intro.m */; };
+		4BE7EDD81D423FB1008E08AE /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EDD71D423FB1008E08AE /* Declarations.m */; };
+		4BE7EDE21D42DCAC008E08AE /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EDE11D42DCAC008E08AE /* Home.m */; };
+		4BE7EDE71D42E510008E08AE /* cellAvengers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7EDE51D42E510008E08AE /* cellAvengers.m */; };
+		4BE7EDE81D42E510008E08AE /* cellAvengers.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDE61D42E510008E08AE /* cellAvengers.xib */; };
+		4BE7EE051D4322BF008E08AE /* arroz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDF51D4322BF008E08AE /* arroz.jpg */; };
+		4BE7EE061D4322BF008E08AE /* Baguette.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDF61D4322BF008E08AE /* Baguette.jpg */; };
+		4BE7EE071D4322BF008E08AE /* cereal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDF71D4322BF008E08AE /* cereal.jpg */; };
+		4BE7EE081D4322BF008E08AE /* enchiladas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDF81D4322BF008E08AE /* enchiladas.jpg */; };
+		4BE7EE091D4322BF008E08AE /* fruta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDF91D4322BF008E08AE /* fruta.jpg */; };
+		4BE7EE0A1D4322BF008E08AE /* huarache.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDFA1D4322BF008E08AE /* huarache.jpg */; };
+		4BE7EE0B1D4322BF008E08AE /* hamburguesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDFB1D4322BF008E08AE /* hamburguesa.jpg */; };
+		4BE7EE0C1D4322BF008E08AE /* huevo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDFC1D4322BF008E08AE /* huevo.jpg */; };
+		4BE7EE0D1D4322BF008E08AE /* langosta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDFD1D4322BF008E08AE /* langosta.jpg */; };
+		4BE7EE0E1D4322BF008E08AE /* licuado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDFE1D4322BF008E08AE /* licuado.jpg */; };
+		4BE7EE0F1D4322BF008E08AE /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EDFF1D4322BF008E08AE /* pizza.jpg */; };
+		4BE7EE101D4322BF008E08AE /* pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE001D4322BF008E08AE /* pollo.jpg */; };
+		4BE7EE111D4322BF008E08AE /* pozole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE011D4322BF008E08AE /* pozole.jpg */; };
+		4BE7EE121D4322BF008E08AE /* salmon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE021D4322BF008E08AE /* salmon.jpg */; };
+		4BE7EE131D4322BF008E08AE /* sirloin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE031D4322BF008E08AE /* sirloin.jpg */; };
+		4BE7EE141D4322BF008E08AE /* spaguetti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE041D4322BF008E08AE /* spaguetti.jpg */; };
+		4BE7EE161D4323A9008E08AE /* malpasar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE151D4323A9008E08AE /* malpasar.jpg */; };
+		4BE7EE191D4323B3008E08AE /* chef.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE171D4323B3008E08AE /* chef.jpg */; };
+		4BE7EE1A1D4323B3008E08AE /* comer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7EE181D4323B3008E08AE /* comer.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +52,34 @@
 		4B3718591D41A40C00E7ADD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B37185C1D41A40C00E7ADD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B37185E1D41A40C00E7ADD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BE7EDD31D423E7E008E08AE /* Intro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intro.h; sourceTree = "<group>"; };
+		4BE7EDD41D423E7E008E08AE /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
+		4BE7EDD61D423FB1008E08AE /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		4BE7EDD71D423FB1008E08AE /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		4BE7EDE01D42DCAC008E08AE /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		4BE7EDE11D42DCAC008E08AE /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		4BE7EDE41D42E510008E08AE /* cellAvengers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellAvengers.h; sourceTree = "<group>"; };
+		4BE7EDE51D42E510008E08AE /* cellAvengers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellAvengers.m; sourceTree = "<group>"; };
+		4BE7EDE61D42E510008E08AE /* cellAvengers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellAvengers.xib; sourceTree = "<group>"; };
+		4BE7EDF51D4322BF008E08AE /* arroz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arroz.jpg; sourceTree = "<group>"; };
+		4BE7EDF61D4322BF008E08AE /* Baguette.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Baguette.jpg; sourceTree = "<group>"; };
+		4BE7EDF71D4322BF008E08AE /* cereal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cereal.jpg; sourceTree = "<group>"; };
+		4BE7EDF81D4322BF008E08AE /* enchiladas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enchiladas.jpg; sourceTree = "<group>"; };
+		4BE7EDF91D4322BF008E08AE /* fruta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fruta.jpg; sourceTree = "<group>"; };
+		4BE7EDFA1D4322BF008E08AE /* huarache.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huarache.jpg; sourceTree = "<group>"; };
+		4BE7EDFB1D4322BF008E08AE /* hamburguesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamburguesa.jpg; sourceTree = "<group>"; };
+		4BE7EDFC1D4322BF008E08AE /* huevo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huevo.jpg; sourceTree = "<group>"; };
+		4BE7EDFD1D4322BF008E08AE /* langosta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = langosta.jpg; sourceTree = "<group>"; };
+		4BE7EDFE1D4322BF008E08AE /* licuado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = licuado.jpg; sourceTree = "<group>"; };
+		4BE7EDFF1D4322BF008E08AE /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		4BE7EE001D4322BF008E08AE /* pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo.jpg; sourceTree = "<group>"; };
+		4BE7EE011D4322BF008E08AE /* pozole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pozole.jpg; sourceTree = "<group>"; };
+		4BE7EE021D4322BF008E08AE /* salmon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salmon.jpg; sourceTree = "<group>"; };
+		4BE7EE031D4322BF008E08AE /* sirloin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sirloin.jpg; sourceTree = "<group>"; };
+		4BE7EE041D4322BF008E08AE /* spaguetti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaguetti.jpg; sourceTree = "<group>"; };
+		4BE7EE151D4323A9008E08AE /* malpasar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = malpasar.jpg; sourceTree = "<group>"; };
+		4BE7EE171D4323B3008E08AE /* chef.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chef.jpg; sourceTree = "<group>"; };
+		4BE7EE181D4323B3008E08AE /* comer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comer.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +112,8 @@
 		4B3718491D41A40C00E7ADD1 /* Intro Table */ = {
 			isa = PBXGroup;
 			children = (
+				4BE7EDE31D42E4C3008E08AE /* Cells */,
+				4BE7EDD91D42C84B008E08AE /* images */,
 				4B3718651D41A76100E7ADD1 /* Main */,
 				4B3718641D41A74A00E7ADD1 /* Controller */,
 				4B3718531D41A40C00E7ADD1 /* Main.storyboard */,
@@ -85,6 +139,10 @@
 			children = (
 				4B3718501D41A40C00E7ADD1 /* Start.h */,
 				4B3718511D41A40C00E7ADD1 /* Start.m */,
+				4BE7EDD31D423E7E008E08AE /* Intro.h */,
+				4BE7EDD41D423E7E008E08AE /* Intro.m */,
+				4BE7EDE01D42DCAC008E08AE /* Home.h */,
+				4BE7EDE11D42DCAC008E08AE /* Home.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -94,8 +152,46 @@
 			children = (
 				4B37184D1D41A40C00E7ADD1 /* AppDelegate.h */,
 				4B37184E1D41A40C00E7ADD1 /* AppDelegate.m */,
+				4BE7EDD61D423FB1008E08AE /* Declarations.h */,
+				4BE7EDD71D423FB1008E08AE /* Declarations.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		4BE7EDD91D42C84B008E08AE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7EE171D4323B3008E08AE /* chef.jpg */,
+				4BE7EE181D4323B3008E08AE /* comer.jpg */,
+				4BE7EE151D4323A9008E08AE /* malpasar.jpg */,
+				4BE7EDF51D4322BF008E08AE /* arroz.jpg */,
+				4BE7EDF61D4322BF008E08AE /* Baguette.jpg */,
+				4BE7EDF71D4322BF008E08AE /* cereal.jpg */,
+				4BE7EDF81D4322BF008E08AE /* enchiladas.jpg */,
+				4BE7EDF91D4322BF008E08AE /* fruta.jpg */,
+				4BE7EDFA1D4322BF008E08AE /* huarache.jpg */,
+				4BE7EDFB1D4322BF008E08AE /* hamburguesa.jpg */,
+				4BE7EDFC1D4322BF008E08AE /* huevo.jpg */,
+				4BE7EDFD1D4322BF008E08AE /* langosta.jpg */,
+				4BE7EDFE1D4322BF008E08AE /* licuado.jpg */,
+				4BE7EDFF1D4322BF008E08AE /* pizza.jpg */,
+				4BE7EE001D4322BF008E08AE /* pollo.jpg */,
+				4BE7EE011D4322BF008E08AE /* pozole.jpg */,
+				4BE7EE021D4322BF008E08AE /* salmon.jpg */,
+				4BE7EE031D4322BF008E08AE /* sirloin.jpg */,
+				4BE7EE041D4322BF008E08AE /* spaguetti.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4BE7EDE31D42E4C3008E08AE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7EDE41D42E510008E08AE /* cellAvengers.h */,
+				4BE7EDE51D42E510008E08AE /* cellAvengers.m */,
+				4BE7EDE61D42E510008E08AE /* cellAvengers.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +251,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE7EE111D4322BF008E08AE /* pozole.jpg in Resources */,
+				4BE7EE121D4322BF008E08AE /* salmon.jpg in Resources */,
+				4BE7EE061D4322BF008E08AE /* Baguette.jpg in Resources */,
+				4BE7EE0E1D4322BF008E08AE /* licuado.jpg in Resources */,
+				4BE7EE081D4322BF008E08AE /* enchiladas.jpg in Resources */,
+				4BE7EE131D4322BF008E08AE /* sirloin.jpg in Resources */,
 				4B37185D1D41A40C00E7ADD1 /* LaunchScreen.storyboard in Resources */,
+				4BE7EE071D4322BF008E08AE /* cereal.jpg in Resources */,
+				4BE7EE0F1D4322BF008E08AE /* pizza.jpg in Resources */,
+				4BE7EDE81D42E510008E08AE /* cellAvengers.xib in Resources */,
+				4BE7EE0D1D4322BF008E08AE /* langosta.jpg in Resources */,
+				4BE7EE0A1D4322BF008E08AE /* huarache.jpg in Resources */,
+				4BE7EE091D4322BF008E08AE /* fruta.jpg in Resources */,
+				4BE7EE0C1D4322BF008E08AE /* huevo.jpg in Resources */,
+				4BE7EE141D4322BF008E08AE /* spaguetti.jpg in Resources */,
+				4BE7EE161D4323A9008E08AE /* malpasar.jpg in Resources */,
+				4BE7EE1A1D4323B3008E08AE /* comer.jpg in Resources */,
+				4BE7EE051D4322BF008E08AE /* arroz.jpg in Resources */,
+				4BE7EE191D4323B3008E08AE /* chef.jpg in Resources */,
 				4B37185A1D41A40C00E7ADD1 /* Assets.xcassets in Resources */,
+				4BE7EE0B1D4322BF008E08AE /* hamburguesa.jpg in Resources */,
+				4BE7EE101D4322BF008E08AE /* pollo.jpg in Resources */,
 				4B3718551D41A40C00E7ADD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,9 +284,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE7EDD51D423E7F008E08AE /* Intro.m in Sources */,
 				4B3718521D41A40C00E7ADD1 /* Start.m in Sources */,
+				4BE7EDD81D423FB1008E08AE /* Declarations.m in Sources */,
 				4B37184F1D41A40C00E7ADD1 /* AppDelegate.m in Sources */,
+				4BE7EDE71D42E510008E08AE /* cellAvengers.m in Sources */,
 				4B37184C1D41A40C00E7ADD1 /* main.m in Sources */,
+				4BE7EDE21D42DCAC008E08AE /* Home.m in Sources */,
 				4B3718581D41A40C00E7ADD1 /* Intro_Table.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +440,7 @@
 				4B3718631D41A40C00E7ADD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
