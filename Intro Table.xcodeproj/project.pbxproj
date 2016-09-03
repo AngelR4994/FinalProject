@@ -10,6 +10,7 @@
 		4B31E1441D7A5CDF00F927D0 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B31E1431D7A5CDF00F927D0 /* NavigationViewController.m */; };
 		4B31E1471D7A89BC00F927D0 /* Mapa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B31E1461D7A89BC00F927D0 /* Mapa.m */; };
 		4B31E1491D7A8C6900F927D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B31E1481D7A8C6900F927D0 /* CoreLocation.framework */; };
+		4B31E14C1D7A9C1100F927D0 /* SendDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B31E14B1D7A9C1100F927D0 /* SendDataViewController.m */; };
 		4B37184C1D41A40C00E7ADD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B37184B1D41A40C00E7ADD1 /* main.m */; };
 		4B37184F1D41A40C00E7ADD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B37184E1D41A40C00E7ADD1 /* AppDelegate.m */; };
 		4B3718521D41A40C00E7ADD1 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3718511D41A40C00E7ADD1 /* Start.m */; };
@@ -50,6 +51,8 @@
 		4B31E1451D7A89BC00F927D0 /* Mapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mapa.h; sourceTree = "<group>"; };
 		4B31E1461D7A89BC00F927D0 /* Mapa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mapa.m; sourceTree = "<group>"; };
 		4B31E1481D7A8C6900F927D0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4B31E14A1D7A9C1100F927D0 /* SendDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendDataViewController.h; sourceTree = "<group>"; };
+		4B31E14B1D7A9C1100F927D0 /* SendDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendDataViewController.m; sourceTree = "<group>"; };
 		4B3718471D41A40C00E7ADD1 /* Intro Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intro Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B37184B1D41A40C00E7ADD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B37184D1D41A40C00E7ADD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +165,8 @@
 				4B9EBD2D1D77E65F0027905E /* FoodDetails.m */,
 				4B31E1421D7A5CDF00F927D0 /* NavigationViewController.h */,
 				4B31E1431D7A5CDF00F927D0 /* NavigationViewController.m */,
+				4B31E14A1D7A9C1100F927D0 /* SendDataViewController.h */,
+				4B31E14B1D7A9C1100F927D0 /* SendDataViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -305,6 +310,7 @@
 			files = (
 				4B9EBD2E1D77E65F0027905E /* FoodDetails.m in Sources */,
 				4BE7EDD51D423E7F008E08AE /* Intro.m in Sources */,
+				4B31E14C1D7A9C1100F927D0 /* SendDataViewController.m in Sources */,
 				4B31E1441D7A5CDF00F927D0 /* NavigationViewController.m in Sources */,
 				4B3718521D41A40C00E7ADD1 /* Start.m in Sources */,
 				4BE7EDD81D423FB1008E08AE /* Declarations.m in Sources */,

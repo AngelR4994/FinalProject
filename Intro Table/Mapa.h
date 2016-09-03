@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
-
-@interface Mapa : UIViewController<CLLocationManagerDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+#import <MessageUI/MFMailComposeViewController.h>
 
 
+@interface Mapa : UIViewController<CLLocationManagerDelegate,MFMailComposeViewControllerDelegate>
+@property (strong, nonatomic) IBOutlet UILabel *addressLabel;
 
+- (IBAction)btnSend:(id)sender;
 @end
 

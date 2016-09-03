@@ -29,6 +29,10 @@
    [self performSegueWithIdentifier:@"Menu" sender:self];
 }
 
+- (IBAction)btnUbicacion:(id)sender {
+    [self performSegueWithIdentifier:@"Mapa" sender:self];
+}
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     /*if([segue.destinationViewController isKindOfClass:[FoodDetails class]])

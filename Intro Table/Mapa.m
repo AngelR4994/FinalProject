@@ -30,6 +30,9 @@ CLPlacemark *placemark;
     if ([locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
         [locationManager requestWhenInUseAuthorization];
     }
+    locationManager.delegate = self;
+    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [locationManager startUpdatingLocation];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -69,11 +72,17 @@ CLPlacemark *placemark;
 }
 
 
-
-/*- (IBAction)getCurrentLocation:(id)sender {
-    locationManager.delegate = self;
-    locationManager.desiredAccuracy = kCLLocationAccuracyBest;
-    [locationManager startUpdatingLocation];
+- (IBAction)btnSend:(id)sender {
+    // From within your active view controller
+    if([MFMailComposeViewController canSendMail]) {
+        MFMailComposeViewController *mailCont = [[MFMailComposeViewController alloc] init];
+        mailCont.mailComposeDelegate = self;
+        
+        [mailCont setSubject:@"Pedido confirmado"];
+        [mailCont setToRecipients:[NSArray arrayWithObject:@"jhamer02@hotmail.com"]];
+        [mailCont setMessageBody:@"Detalles del pedido  Lucky Strike, Six Corona, Botella Don Julio" isHTML:NO];
+        
+        [self presentModalViewController:mailCont animated:YES];
+    }
 }
-*/
 @end

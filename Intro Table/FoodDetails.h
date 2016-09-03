@@ -13,5 +13,6 @@
 
 @property (strong, nonatomic) IBOutlet UIImageView *imgFood;
 - (IBAction)btnComprar:(id)sender;
+- (IBAction)btnUbicacion:(id)sender;
 
 @end

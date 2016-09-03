@@ -119,18 +119,6 @@
                                 <color key="textColor" red="0.89809024640000001" green="0.73512630440000004" blue="0.27659725940000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.32174030172413792" green="0.54237607758620687" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cIK-l1-HM7" userLabel="btnEnviarUbicacion">
-                                <rect key="frame" x="68" y="518" width="184" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <state key="normal" title="Enviar ubicacion">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" red="0.98591756909999995" green="1" blue="0.98850148090000001" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnEnviarUbicacion:" destination="ACI-PH-eJm" eventType="touchUpInside" id="qlP-Hi-urt"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="qiU-g9-Q3B" userLabel="tblAvengers">
                                 <rect key="frame" x="0.0" y="65" width="320" height="401"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,7 +136,6 @@
                     <connections>
                         <outlet property="lblCellSelected" destination="06a-nM-6c2" id="VFu-LC-J80"/>
                         <outlet property="tblAvengers" destination="qiU-g9-Q3B" id="daS-VR-HAZ"/>
-                        <segue destination="Pp8-7j-EXG" kind="push" identifier="Mapa" id="gf9-C6-EYr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FS6-TE-Irp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -170,26 +157,32 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="jjj" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eWM-v8-xAx" userLabel="addressLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cargando...." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eWM-v8-xAx" userLabel="addressLabel">
                                 <rect key="frame" x="20" y="239" width="273" height="89"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" red="0.52847521551724141" green="0.65285560344827587" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rk9-Ab-1Od" userLabel="getCurrentLocation">
-                                <rect key="frame" x="68" y="387" width="109" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vXW-QQ-YXi" userLabel="btnSend">
+                                <rect key="frame" x="34" y="387" width="253" height="70"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <state key="normal" title="Enviar datos de compra y ubicacion"/>
+                                <connections>
+                                    <action selector="btnSend:" destination="Pp8-7j-EXG" eventType="touchUpInside" id="hTi-OV-5Pe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Jrd-57-JYb"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="eWM-v8-xAx" id="2yh-5U-T7Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Rr-lr-UvP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1663" y="272"/>
+            <point key="canvasLocation" x="1361" y="-421"/>
         </scene>
         <!--Food Details-->
         <scene sceneID="qPJ-FK-REq">
@@ -203,10 +196,21 @@
                                 <rect key="frame" x="40" y="91" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0JS-Ro-cmz" userLabel="btnComprar">
-                                <rect key="frame" x="119" y="347" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LJi-i6-iGm" userLabel="btnUbicacion">
+                                <rect key="frame" x="23" y="471" width="268" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Terminar compra y enviar ubicacion"/>
+                                <connections>
+                                    <action selector="btnUbicacion:" destination="ush-F5-Cdt" eventType="touchUpInside" id="84z-vD-9C7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0JS-Ro-cmz" userLabel="btnComprar">
+                                <rect key="frame" x="113" y="340" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Comprar">
+                                    <color key="titleColor" red="0.95686274510000002" green="0.03209950843" blue="0.1501604892" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="btnComprar:" destination="ush-F5-Cdt" eventType="touchUpInside" id="Ju2-J5-6iA"/>
                                 </connections>
@@ -218,6 +222,7 @@
                     <connections>
                         <outlet property="imgFood" destination="ywf-pu-6wo" id="qA9-gt-lQC"/>
                         <segue destination="ACI-PH-eJm" kind="push" identifier="Menu" id="mTg-Bf-O0m"/>
+                        <segue destination="Pp8-7j-EXG" kind="push" identifier="Mapa" id="ZfE-PB-fGx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yc1-d8-sT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
