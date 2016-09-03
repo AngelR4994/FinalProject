@@ -10,6 +10,7 @@
 NSString *stDommy;
 NSMutableArray *maIntroTitles;
 NSMutableArray *maIntroImgs;
+NSMutableArray   *maFoodDetalsImgs;
 @implementation Declarations
 
 @end

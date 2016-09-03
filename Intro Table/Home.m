@@ -7,12 +7,13 @@
 //
 
 #import "Home.h"
-
+#import "FoodDetails.h"
+#import "Declarations.h"
 @interface Home ()
 
 @property NSMutableArray *avengerNames;
 @property NSMutableArray *avengerImgs;
-
+@property NSString *stPhotoSelected;
 @end
 
 
@@ -68,7 +69,22 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     self.lblCellSelected.text  = self.avengerNames[indexPath.row];
+    self.stPhotoSelected        =   self.avengerImgs[indexPath.row];
+    maFoodDetalsImgs = self.stPhotoSelected;
+    UINavigationController *vc=[[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateViewControllerWithIdentifier:@"NavigationViewController"];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+- (IBAction)btnEnviarUbicacion:(id)sender {
+    [self performSegueWithIdentifier:@"Mapa" sender:self];
 }
 
-
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    /*if([segue.destinationViewController isKindOfClass:[FoodDetails class]])
+     {
+     FoodDetails *Food =[segue destinationViewController];
+     Food.FoodPhoto          = self.stPhotoSelected;
+     }*/
+    
+}
 @end

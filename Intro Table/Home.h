@@ -11,5 +11,6 @@
 @interface Home : UIViewController
 @property (strong, nonatomic) IBOutlet UITableView *tblAvengers;
 @property (strong, nonatomic) IBOutlet UILabel *lblCellSelected;
+- (IBAction)btnEnviarUbicacion:(id)sender;
 
 @end
